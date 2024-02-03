@@ -5,11 +5,11 @@ import '../styles/NavTabs.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav my-app-nav-ul justify-content-end">
-      <li className="nav-item">
+      <li className="nav-item ">
         <a
           href="#Aboutme"
           onClick={() => handlePageChange('Aboutme')}
-          className={`nav-link my-app-nav-link ${currentPage === 'Aboutme' ? 'active' : ''}`}
+          className={`nav-link anchorTags ${currentPage === 'Aboutme' ? 'active' : ''}`}
         >
           About Me
         </a>
@@ -18,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={`nav-link my-app-nav-link ${currentPage === 'Portfolio' ? 'active' : ''}`}
+          className={`nav-link anchorTags ${currentPage === 'Portfolio' ? 'active' : ''}`}
         >
           Portfolio
         </a>
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
-          className={`nav-link my-app-nav-link ${currentPage === 'Resume' ? 'active' : ''}`}
+          className={`nav-link anchorTags ${currentPage === 'Resume' ? 'active' : ''}`}
         >
           Resume
         </a>
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#Contact"
           onClick={() => handlePageChange('Contact')}
-          className={`nav-link my-app-nav-link ${currentPage === 'Contact' ? 'active' : ''}`}
+          className={`nav-link anchorTags ${currentPage === 'Contact' ? 'active' : ''}`}
         >
           Contact
         </a>

@@ -5,8 +5,7 @@
   padding: 0;
   margin-top: 0;
 }
-
-.my-app-nav-link {
+.my-app-nav-ul .nav-item .nav-link.anchorTags {
   font-size: 30px;
-  color: rgb(82, 180, 37);
+  color: rgba(26, 105, 26, 0.725);
 }

@@ -8,8 +8,6 @@ export default function portfolioContainer(){
 
     const [currentPage, setCurrentPage] = useState('Aboutme');
 
-
-
     const renderPage = () => {
         if (currentPage === 'Aboutme') {
           return <Aboutme />;
@@ -23,7 +21,6 @@ export default function portfolioContainer(){
         return <Resume />;
       };
 
-    
       const handlePageChange = (page) => setCurrentPage(page);
 
 

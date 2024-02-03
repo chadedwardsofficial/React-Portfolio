@@ -1,22 +1,11 @@
-export default aboutme = () => {
-// To-Do : Put Bootstrap about me here. 
-
-// need headshot photo
-// and next to it need an about me p tag to the left of it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+export default function Aboutme() {
+    return (
+      <div>
+        <h1>Chad Edwards</h1>
+        <p>
+         // Insert About Me Here
+        </p>
+      </div>
+    );
+  }
+  

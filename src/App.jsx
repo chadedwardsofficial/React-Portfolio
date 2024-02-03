@@ -1,10 +1,5 @@
-// import { useState } from 'react'
+import portfolioContainer from "./components/portfolioContainer";
 
+const App = () => <portfolioContainer />;
 
-
-// function App() {
- 
-
-// }
-
-// export default App
+export default App;

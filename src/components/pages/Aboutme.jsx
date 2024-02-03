@@ -1,7 +1,10 @@
+import '../../styles/aboutme.css';
+
 export default function Aboutme() {
     return (
       <div>
         <h1>Chad Edwards</h1>
+     <div className='headShot'></div>
         <p>
         Hello! I'm Chad Edwards, a passionate web developer with expertise in React and Node.js. 
           I enjoy creating engaging and responsive web applications. 

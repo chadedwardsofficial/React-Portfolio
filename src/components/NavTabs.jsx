@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/NavTabs.css';
 
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav my-app-nav-ul justify-content-end">

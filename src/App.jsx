@@ -1,5 +1,5 @@
-import portfolioContainer from "./components/portfolioContainer";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-const App = () => <portfolioContainer />;
+const App = () => <PortfolioContainer />;
 
 export default App;

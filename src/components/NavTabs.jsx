@@ -4,7 +4,10 @@ import '../styles/NavTabs.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    
+    
     <ul className="nav my-app-nav-ul justify-content-end">
+  
       <li className="nav-item ">
         <a
           href="#Aboutme"

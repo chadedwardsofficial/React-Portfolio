@@ -33,19 +33,40 @@ justify-content: space-evenly;
 
 }
 .aboutMeQuote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
   width: 100%;
-  height: 500px;
-   border: 2px solid black;
+  height: 200px;
+   /* border: 2px solid black; */
+   text-align: center;
+   font-size: 35px;
 }
 
 .aboutmeSection {
-  color: rgb(17, 133, 34);
-  font-weight: bold;
-  margin-top: 250px;
+  color: rgb(69, 30, 6);
+  display: flex;
+  justify-content: space-evenly;
+  /* font-weight: bold; */
+  margin-top: 190px;
   height: 600px;
-  width: 900px;
-  /* border: 2px solid black; */
+  width: 100%;
+  border: 2px solid black;
   font-size: 35px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
+.paragraph {
+  padding-left: 8%;
+  width: 40%;
+  text-align:center;
+}
+
+.aboutme2 {
+  font-size: 40px;
+  padding-left: 8%;
+  width: 40%;
+  text-align:center;
+}
+

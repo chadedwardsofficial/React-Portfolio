@@ -1,15 +1,39 @@
-// List of Cards -- Hard Coded in with pictures
-// Need small info 
-// Hover effect on each card that brings up more information and they need to be href
-
-
-import React from 'react';
+import "../../styles/aboutme.css";
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>This is the portfolio page content.</p>
+    <div className="portfolioContainer">
+      <div className="top1Section">
+        <div className="skills">
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+        </div>
+        <div className="projectsTop">
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+        </div>
+        <div className="associatedText">
+          <p>Some Text</p>
+        </div>
+      </div>
+      <div className="top2Section">
+        <div className="skills2">
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+        </div>
+        <div className="projectsBot">
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+        </div>
+      </div>
     </div>
   );
 };

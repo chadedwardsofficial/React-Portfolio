@@ -9,3 +9,7 @@
   font-size: 30px;
   color: rgba(26, 105, 26, 0.725);
 }
+
+.misoKitty  {
+  background-image: url(../styles/miso.png);
+}

@@ -1,0 +1,44 @@
+.top1Section { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid black;
+  height: 50vh;
+}
+.projectsTop {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  width: 40%;
+  height: 100%;
+}
+
+.skills {
+  width: 30%;
+  border: 2px solid black;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 42%;
+  height: 10%;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+/* a  {
+
+  width: 100px;
+  height: 40px;
+} */
+
+.btn-primary {
+  background-color: red;
+  color: red;
+}

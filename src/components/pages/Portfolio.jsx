@@ -2,9 +2,18 @@ import "../../styles/Portfolio.css";
 import socialnetwork from "../../styles/socialapi.png";
 import ecommerce from "../../styles/ecommcerce.png";
 import office from "../../styles/office.png";
+import readME from "../../styles/readMe.png"
 import sql from "./altIcons/icons8-mysql-24.png";
 import mongoDB from "./altIcons/icons8-mongo-db-96.png";
+import bootstrap from "./altIcons/bootstrap.png"
+import graphQL from "./altIcons/graphQL.png"
+import nodejs from "./altIcons/nodejs.png"
+import javas from "./altIcons/javas.png"
+
+
 const Portfolio = () => {
+
+  
   return (
     <div className="portfolioContainer">
       <div className="header">Personal Projects</div>
@@ -40,7 +49,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
+          <img src={readME} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">README Generator</h5>
             <p className="card-text">
@@ -79,20 +88,35 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div><p>Skills</p></div>
+      <div className="skillHeader"><p>Skills</p></div>
       <div className="skills">
        
         <div className="skillBox">
-          <img src={sql} className="sql" />
+          <img src={sql} className="icon" />
           <p>MySQL</p>
         </div>
 
         <div className="skillBox">
-          <img src={mongoDB} className="mongoDB" />
+          <img src={mongoDB} className="icon" />
           <p>MongoDB</p>
         </div>
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <div className="skillBox">
+          <img src={bootstrap} className="icon" />
+          <p>Bootstrap</p>
+        </div>
+        <div className="skillBox">
+          <img src={graphQL} className="icon" />
+          <p>GraphQL</p>
+        </div>
+        <div className="skillBox">
+          <img src={nodejs} className="icon" />
+          <p>Nodejs</p>
+        </div>
+        <div className="skillBox">
+          <img src={javas} className="icon" />
+          <p>Javascript</p>
+        </div>
+        
       </div>
       <div className="bottomtext">Collaborative Projects</div>
       <div className="top2Section">

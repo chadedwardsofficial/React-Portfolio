@@ -56,9 +56,46 @@ const Portfolio = () => {
             <p className="card-text">
               Baseline demonstration for an E-Commerce Back End database using
               Sequelize CRUD Routes.
+              <div className="listedSkills">
+                <ul>
+                  <li>ORM</li>
+                  <li>Express</li>
+                  <li>Javascript</li>
+                  <li>Insomnia</li>
+                </ul>
+                </div>
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/chadedwardsofficial/ORM-E-Commerce-Back-End" target="_blank" className="btn btn-primary">
               Git Code
+            </a>
+            <a href="https://drive.google.com/file/d/1PopCmRJntvL36XSl-LxQnxwnh8A14z5N/view"
+            target="_blank" className="btn demo btn-primary">
+             Watch Demo
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={office} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h3 className="card-title">Office SQL Database</h3>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+              <div className="listedSkills">
+                <ul>
+                  <li>SQL</li>
+                  <li>Express</li>
+                  <li>Javascript</li>
+                  <li>Sequelize</li>
+                </ul>
+                </div>
+            </p>
+            <a href="https://github.com/chadedwardsofficial/sql-Office-Data" target="_blank" className="btn btn-primary">
+              Git Code
+            </a>
+            <a href="https://drive.google.com/file/d/1v30_fEnKzQx9fxnY5Z4zTjhb554FQzvR/view"
+            target="_blank" className="btn demo btn-primary">
+             Watch Demo
             </a>
           </div>
         </div>
@@ -70,20 +107,7 @@ const Portfolio = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" className="btn btn-primary">
-              Git Code
-            </a>
-          </div>
-        </div>
-        <div className="card">
-          <img src={office} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h3 className="card-title">Office SQL Database</h3>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/chadedwardsofficial/generateREADME"  target="_blank" className="btn btn-primary">
               Git Code
             </a>
           </div>
@@ -96,7 +120,7 @@ const Portfolio = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/chadedwardsofficial/SVG-Generator" target="_blank" className="btn btn-primary">
               Git Code
             </a>
           </div>

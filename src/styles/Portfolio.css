@@ -33,7 +33,7 @@
 }
 
 
-.card {
+.portfolioContainer .card {
   display: flex;
   flex-wrap: wrap;
   width: 30%;
@@ -58,10 +58,23 @@
   width: 100%;
 }
 
-.btn-primary {
-  background-color: red;
-  color: red;
+.portfolioContainer .btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(38, 167, 46, 0.706);
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  color: black;
 }
+
+.portfolioContainer .demo {
+width: 150px;
+margin-left: 15px;
+}
+
+
 
 .bottomtext{
   display:flex;
@@ -127,4 +140,23 @@ justify-content: center;
 
 .card:hover {
   transform: scale(1.05); /* Increase size by 5% on hover */
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .portfolioContainer .card {
+    width: 45%; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolioContainer .card {
+    width: 100%; /* Make cards full width on even smaller screens */
+  }
 }

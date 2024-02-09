@@ -1,0 +1,61 @@
+* {
+  list-style-type: none;
+}
+.resumeContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.summary {
+  width: 500px;
+  text-align: center;
+}
+
+.header {
+  display:flex;
+  justify-content: center;
+}
+
+.experience h2 {
+  font-size: 50px;
+  color: rgb(11, 88, 11);
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.job {
+  margin-top: 50px;
+}
+
+
+.degree {
+  margin-top: 40px;
+}
+
+.education h2 {
+  font-size: 50px;
+  color: rgb(11, 88, 11);
+}

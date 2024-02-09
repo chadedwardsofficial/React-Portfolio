@@ -15,9 +15,15 @@ export default function Aboutme() {
       <div className="aboutmeSection">
         <div className="paragraph">
           <p>
-      Hey there! I'm Chad and I am a Junior Software Developer based in Dallas. I am a caffeine addicted lover of traveling, foreign films and anthropology! You can find me on weekdays  coding and on weekends exploring the city's hidden gems. I'm all about finding that sweet spot between lines of code and discovering what makes each place unique.
+          Junior full-stack developer specializing in Full-Stack Applications with a focus in React. Proficient in both frontend and backend development, adept at crafting intuitive user interfaces and implementing efficient server-side logic. Passionate about leveraging modern technologies and best practices to deliver innovative solutions that exceed client expectations.
       </p> 
       </div>
+  
+
+
+
+
+
       <div className="aboutme2">
         <p> Later in my life I have a newfound passion for coding and all things tech! I am a recent graduate from Southern Methodist University with a Full Stack Web Development Certificate! I have a pet cat named Miso and fun-fact: she is the ghost writer for all of my code! </p>
  

@@ -1,11 +1,14 @@
 import "../../styles/contact.css";
 import { useState } from "react";
-import { checkPassword, validateEmail } from "../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 
 export default function Contact() {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [fullNameError, setFullNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [messageError, setMessageError] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
@@ -21,10 +24,34 @@ export default function Contact() {
     }
   };
 
+  const handleBlur = (e) => {
+    const inputType = e.target.getAttribute("name");
+    const inputValue = e.target.value;
+
+    switch (inputType) {
+      case "fullName":
+        setFullNameError(inputValue ? "" : "Full Name is required");
+        break;
+      case "email":
+        setEmailError(inputValue ? "" : "Email is required");
+        break;
+      case "message":
+        setMessageError(inputValue ? "" : "Message is required");
+        break;
+      default:
+        break;
+    }
+  };
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (!fullName || !message) {
-      setErrorMessage("Please fill out the Full Name and Message fields.");
+
+    setFullNameError(fullName ? "" : "Full Name is required");
+    setEmailError(email ? "" : "Email is required");
+    setMessageError(message ? "" : "Message is required");
+
+    if (!fullName || !email || !message) {
+      setErrorMessage("Please fill out all required fields.");
       return;
     }
 
@@ -33,12 +60,11 @@ export default function Contact() {
       return;
     }
 
+    // Clear error message if form submission is successful
     setErrorMessage("");
 
-   
     console.log("Form submitted:", { fullName, email, message });
 
-    // Clear input fields after submission
     setFullName("");
     setEmail("");
     setMessage("");
@@ -54,22 +80,28 @@ export default function Contact() {
           value={fullName}
           name="fullName"
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="text"
           placeholder="Full Name"
         />
+        {fullNameError && <p className="error-text">{fullNameError}</p>}
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="email"
           placeholder="Email"
         />
+        {emailError && <p className="error-text">{emailError}</p>}
         <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={handleBlur}
           placeholder="Message"
         ></textarea>
+        {messageError && <p className="error-text">{messageError}</p>}
         <button type="submit">Submit</button>
       </form>
       {errorMessage && (

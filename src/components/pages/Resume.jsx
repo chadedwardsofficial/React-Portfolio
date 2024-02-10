@@ -84,12 +84,12 @@ const Resume = () => {
         <section className="education">
           <h2>Education</h2>
           <div className="degree">
-            <h3>Bachelor of Integrative Studies</h3>
+            <h3>Bachelors of Integrative Studies</h3>
             <p className="university">University of North Texas</p>
             <p className="date">Graduated May 2020</p>
           </div>
           <div className="degree">
-            <h3>Bachelor of Japanese Studies</h3>
+            <h3>Bachelors of Japanese Studies</h3>
             <p className="university">University of North Texas</p>
             <p className="date">Graduated May 2020</p>
           </div>

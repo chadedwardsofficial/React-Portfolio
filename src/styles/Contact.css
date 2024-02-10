@@ -4,16 +4,21 @@
   /* justify-content: center; */
   align-items: center;
   height: 90vh;
+ 
 }
 
 form {
   display: flex;
+  
 
   flex-direction: column;
 }
 form input {
   margin-top: 100px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
 }
 form textarea {
   margin-top: 100px;
@@ -23,6 +28,7 @@ form textarea {
 form button {
   margin-top: 5px;
   border-radius: 10px;
+  transition: .04s;
 }
 
 
@@ -30,4 +36,9 @@ form button {
   text-align: center;
   font-size: 40px;
 
+}
+
+
+form button:hover {
+  background-color: rgb(147, 214, 147);
 }

@@ -15,7 +15,7 @@ export default function Aboutme() {
       <div className="aboutmeSection">
         <div className="paragraph">
           <p>
-          Junior full-stack developer specializing in Full-Stack Applications with a focus in React. Proficient in both frontend and backend development, adept at crafting intuitive user interfaces and implementing efficient server-side logic. Passionate about leveraging modern technologies and best practices to deliver innovative solutions that exceed client expectations.
+          Junior Software Engineer specializing in Full-Stack Applications with a focus in React. Proficient in both frontend and backend development, adept at crafting intuitive user interfaces and implementing efficient server-side logic. Passionate about leveraging modern technologies and best practices to deliver innovative solutions that exceed client expectations.
       </p> 
       </div>
   

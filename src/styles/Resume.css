@@ -49,6 +49,22 @@
 .job {
   margin-top: 50px;
 }
+.btn-primary {
+  background-color: rgb(63, 136, 63);
+}
+
+.dwnld {
+ 
+font-size: 30px;
+
+}
+ 
+.downloadSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 
 
 .degree {

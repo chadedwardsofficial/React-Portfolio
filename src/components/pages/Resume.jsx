@@ -2,17 +2,18 @@
 // Make it detail oriented and list of what you can do
 import React from "react";
 import "../../styles/resume.css";
+import resume from "C:\\Users\\wtfch\\onedrive\\desktop\\homework-module-19\\React-Portfolio\\src\\assets\\Chad Edwards Resume 2024.pdf";
+
 const Resume = () => {
   return (
     <div className="resumeContainer">
-      
       <div className="resume">
         <section className="experience">
           <h2>Experience</h2>
           <div className="job">
             <h3>FreeLance Web Dev.</h3>
 
-            <p className="date">January 2024- Present</p>
+            <p className="date">October 2023- Present</p>
             <ul>
               <li>
                 Developed and maintained frontend and backend systems for
@@ -70,6 +71,15 @@ const Resume = () => {
             </ul>
           </div>
         </section>
+        <div className="downloadSec">
+          <a
+            href={resume}
+            className="btn btn-primary"
+            download="Chad Edwards Resume 2024.pdf"
+          >
+            Download Resume
+          </a>
+        </div>
 
         <section className="education">
           <h2>Education</h2>

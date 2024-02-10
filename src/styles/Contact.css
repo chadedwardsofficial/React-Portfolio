@@ -1,0 +1,33 @@
+.formContainer {
+  display : flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 90vh;
+}
+
+form {
+  display: flex;
+
+  flex-direction: column;
+}
+form input {
+  margin-top: 100px;
+  border-radius: 10px;
+}
+form textarea {
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+form button {
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+
+.headerMessage {
+  text-align: center;
+  font-size: 40px;
+
+}

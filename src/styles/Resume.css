@@ -1,5 +1,6 @@
 * {
   list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
 }
 .resumeContainer {
   height: 100vh;
@@ -49,7 +50,7 @@
 .job {
   margin-top: 50px;
 }
-.btn-primary {
+.downloadSec .btn-primary {
   background-color: rgb(63, 136, 63);
 }
 

@@ -11,7 +11,7 @@ form {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(202, 234, 186);
+  background-color: rgba(179, 235, 151, 0.8);
   width: 500px;
   height: 900px;
   border-radius: 40px;

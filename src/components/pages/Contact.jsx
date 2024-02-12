@@ -24,6 +24,22 @@ export default function Contact() {
     }
   };
 
+
+  const checkEmail = (e) => {
+    
+    const { target } = e;
+    const email = target.value;
+
+    if (!validateEmail(email)) {
+      setEmailError('Email is invalid');
+    } else  {
+      setEmailError('');
+      
+    }
+  };
+
+
+
   const handleBlur = (e) => {
     const inputType = e.target.getAttribute("name");
     const inputValue = e.target.value;
@@ -88,7 +104,7 @@ export default function Contact() {
           value={email}
           name="email"
           onChange={handleInputChange}
-          onBlur={handleBlur}
+          onBlur={checkEmail}
           type="email"
           placeholder="Email"
         />

@@ -1,7 +1,7 @@
 // Link to my resume along with list of my skills
 // Make it detail oriented and list of what you can do
 import React from "react";
-import "../../styles/resume.css";
+import "../../styles/Resume.css";
 import resume from "C:\\Users\\wtfch\\onedrive\\desktop\\homework-module-19\\React-Portfolio\\src\\assets\\Chad Edwards Resume 2024.pdf";
 
 const Resume = () => {

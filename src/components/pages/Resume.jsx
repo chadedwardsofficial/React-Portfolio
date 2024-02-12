@@ -2,7 +2,7 @@
 // Make it detail oriented and list of what you can do
 import React from "react";
 import "../../styles/Resume.css";
-import resume from "C:\\Users\\wtfch\\onedrive\\desktop\\homework-module-19\\React-Portfolio\\src\\assets\\Chad Edwards Resume 2024.pdf";
+import resume from "../../assets/Chad Edwards Resume 2024.pdf";
 
 const Resume = () => {
   return (

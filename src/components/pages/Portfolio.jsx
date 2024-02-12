@@ -5,7 +5,7 @@ import office from "../../styles/office.png";
 import readME from "../../styles/readMe.png";
 import svg from "../../styles/svg.png";
 import secretsanta from "../../styles/secretsanta.png";
-import cinemaDB from "../../styles/cinemaDB.png";
+import cinemaDB from "../../styles/cinemaDb.png";
 import sql from "./altIcons/icons8-mysql-24.png";
 import mongoDB from "./altIcons/icons8-mongo-db-96.png";
 import bootstrap from "./altIcons/bootstrap.png";

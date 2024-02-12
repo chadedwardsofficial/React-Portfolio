@@ -1,6 +1,7 @@
 import "../../styles/contact.css";
 import { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import kittylay from "./altIcons/kittylay.gif"
 
 export default function Contact() {
   const [fullName, setFullName] = useState("");
@@ -124,6 +125,9 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+
+
+      <img src={kittylay}></img>
     </div>
   );
 }

@@ -49,6 +49,14 @@
 }
 .job {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.job ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .downloadSec .btn-primary {
   background-color: rgb(63, 136, 63);

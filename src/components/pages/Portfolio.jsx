@@ -239,8 +239,15 @@ const Portfolio = () => {
                 </ul>
               </div>
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/chadedwardsofficial/Secret-Santa" target="_blank" className="btn btn-primary">
               Git Code
+            </a>
+            <a
+              href="https://serene-island-03400-7f50cf6a1d37.herokuapp.com/"
+              target="_blank"
+              className="btn demo btn-primary"
+            >
+              Deployed App
             </a>
           </div>
         </div>
@@ -259,8 +266,15 @@ const Portfolio = () => {
                 </ul>
               </div>
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/chadedwardsofficial/cinemaDB" target="_blank" className="btn btn-primary">
               Git Code
+            </a>
+            <a
+              href="https://chadedwardsofficial.github.io/cinemaDB/"
+              target="_blank"
+              className="btn demo btn-primary"
+            >
+              Deployed App
             </a>
           </div>
         </div>

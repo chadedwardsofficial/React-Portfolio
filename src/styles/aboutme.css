@@ -71,3 +71,9 @@ justify-content: space-evenly;
   text-align:center;
 }
 
+@media (max-width: 768px) {
+  .headerName {
+    width: 100%;
+    text-align: center;
+  }
+}

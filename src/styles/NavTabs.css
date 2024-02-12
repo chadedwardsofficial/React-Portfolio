@@ -13,3 +13,9 @@
 .misoKitty  {
   background-image: url(../styles/miso.png);
 }
+
+ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -60,7 +60,6 @@ export default function Contact() {
       return;
     }
 
-    // Clear error message if form submission is successful
     setErrorMessage("");
 
     console.log("Form submitted:", { fullName, email, message });

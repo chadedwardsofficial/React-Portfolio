@@ -36,7 +36,7 @@
 .portfolioContainer .card {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 29%;
   margin-bottom: 40px;
   box-shadow: 0px 5px 20px;
   transition: transform 0.9s;
@@ -67,6 +67,7 @@
   width: 100px;
   height: 30px;
   color: black;
+  border: none;
 }
 
 .portfolioContainer .demo {
@@ -140,9 +141,9 @@ padding-right: 20px;
 
 
 .card:hover {
-  transform: scale(1.05); /* Increase size by 5% on hover */
+  transform: scale(1.05); 
+  
 }
-
 
 
 
@@ -152,12 +153,12 @@ padding-right: 20px;
 
 @media (max-width: 768px) {
   .portfolioContainer .card {
-    width: 45%; /* Adjust size for smaller screens */
+    width: 45%; 
   }
 }
 
 @media (max-width: 576px) {
   .portfolioContainer .card {
-    width: 100%; /* Make cards full width on even smaller screens */
+    width: 100%; 
   }
 }

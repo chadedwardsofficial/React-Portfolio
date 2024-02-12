@@ -81,7 +81,7 @@ const Resume = () => {
           </a>
         </div>
 
-        <section className="education">
+        <div className="education">
           <h2>Education</h2>
           <div className="degree">
             <h3>Bachelors of Integrative Studies</h3>
@@ -93,7 +93,7 @@ const Resume = () => {
             <p className="university">University of North Texas</p>
             <p className="date">Graduated May 2020</p>
           </div>
-        </section>
+        </div>
       </div>
     </div>
   );

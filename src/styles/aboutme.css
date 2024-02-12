@@ -18,6 +18,8 @@
   
 }
 .headerName {
+  display: flex;
+  flex-direction: column;
   padding-top: 200px;
   width: 40%;
   font-size: 200px;
@@ -30,6 +32,7 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+height: 100%;
 /* border: 2px solid black; */
 
 }
@@ -70,6 +73,15 @@ justify-content: space-evenly;
   width: 40%;
   text-align:center;
 }
+
+
+@media (max-width: 1452px) {
+  .headerName{
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 @media (max-width: 768px) {
   .headerName {

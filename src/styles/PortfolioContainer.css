@@ -1,0 +1,11 @@
+/* Add these styles to your CSS file or in a style tag within your component */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+}
+
+main {
+  flex: 1; /* Allow the main content to grow to fill the available space */
+}

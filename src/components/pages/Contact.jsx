@@ -1,4 +1,4 @@
-import "../../styles/contact.css";
+import "../../styles/Contact.css";
 import { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import kittylay from "./altIcons/kittylay.gif"

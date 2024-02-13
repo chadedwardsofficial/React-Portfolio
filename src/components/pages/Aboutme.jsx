@@ -14,9 +14,9 @@ export default function Aboutme() {
       </div>
       <div className="aboutmeSection">
         <div className="paragraph">
-          <p>
+          
           Junior Software Engineer specializing in Full-Stack Applications with a focus in React. Proficient in both frontend and backend development, adept at crafting intuitive user interfaces and implementing efficient server-side logic. Passionate about leveraging modern technologies and best practices to deliver innovative solutions that exceed client expectations.
-      </p> 
+      
       </div>
   
 
@@ -25,7 +25,7 @@ export default function Aboutme() {
 
 
       <div className="aboutme2">
-        <p> Later in my life I have a newfound passion for coding and all things tech! I am a recent graduate from Southern Methodist University with a Full Stack Web Development Certificate! I have a pet cat named Miso and fun-fact: she is the ghost writer for all of my code! </p>
+        Later in my life I have a newfound passion for coding and all things tech! I am a recent graduate from Southern Methodist University with a Full Stack Web Development Certificate! I have a pet cat named Miso and fun-fact: she is the ghost writer for all of my code! 
  
       </div>
 
